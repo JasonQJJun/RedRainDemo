@@ -1,0 +1,218 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/ll_root"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <RelativeLayout
+        android:id="@+id/rl_content"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#C0000000">
+
+        <RelativeLayout
+            android:id="@+id/rl_clock"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@mipmap/red_rain_main_bg"
+            android:visibility="visible">
+
+            <ImageView
+                android:id="@+id/iv_1"
+                android:layout_width="350dp"
+                android:layout_height="140dp"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="50dp"
+                android:src="@mipmap/red_rain_text_come" />
+
+
+            <ImageView
+                android:id="@+id/iv_clock"
+                android:layout_width="216dp"
+                android:layout_height="199dp"
+                android:layout_below="@+id/iv_1"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="25dp"
+                android:src="@mipmap/red_clock_10" />
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/red_rain_view"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:visibility="gone">
+
+            <com.qjj.cn.myredraindemo.widget.RedPacketView
+                android:id="@+id/red_packets_view"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                app:max_size="0.8"
+                app:min_size="0.6"
+                app:speed="150" />
+
+            <RelativeLayout
+                android:id="@+id/rl_add_sum"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+
+                <LinearLayout
+                    android:id="@+id/rl_totalmoney1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="17dp"
+                    android:layout_marginTop="23dp"
+                    android:orientation="horizontal"
+                    android:visibility="invisible">
+
+                    <ImageView
+                        android:id="@+id/iv_totalmoney1"
+                        android:layout_width="32dp"
+                        android:layout_height="32dp"
+                        android:src="@mipmap/red_rain_placeholder" />
+
+                    <TextView
+                        android:id="@+id/tv_totalmoney1"
+                        android:layout_width="@dimen/red_rain_totalmoney_text_width"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_vertical"
+                        android:layout_marginLeft="7dp"
+                        android:ellipsize="end"
+                        android:singleLine="true"
+                        android:text="+0.000000"
+                        android:textColor="#FFBD00"
+                        android:textSize="20sp"
+                        android:textStyle="bold" />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/rl_totalmoney2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentRight="true"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="23dp"
+                    android:layout_marginRight="40dp"
+                    android:orientation="horizontal"
+                    android:visibility="invisible">
+
+                    <ImageView
+                        android:id="@+id/iv_totalmoney2"
+                        android:layout_width="32dp"
+                        android:layout_height="32dp"
+                        android:src="@mipmap/red_rain_placeholder" />
+
+                    <TextView
+                        android:id="@+id/tv_totalmoney2"
+                        android:layout_width="@dimen/red_rain_totalmoney_text_width"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_vertical"
+                        android:layout_marginLeft="7dp"
+                        android:ellipsize="end"
+                        android:singleLine="true"
+                        android:text="+0.000000"
+                        android:textColor="#FFBD00"
+                        android:textSize="20sp"
+                        android:textStyle="bold" />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/rl_totalmoney3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="17dp"
+                    android:layout_marginTop="69dp"
+                    android:orientation="horizontal"
+                    android:visibility="invisible">
+
+                    <ImageView
+                        android:id="@+id/iv_totalmoney3"
+                        android:layout_width="32dp"
+                        android:layout_height="32dp"
+                        android:src="@mipmap/red_rain_placeholder" />
+
+                    <TextView
+                        android:id="@+id/tv_totalmoney3"
+                        android:layout_width="@dimen/red_rain_totalmoney_text_width"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_vertical"
+                        android:layout_marginLeft="7dp"
+                        android:ellipsize="end"
+                        android:singleLine="true"
+                        android:text="+0.000000"
+                        android:textColor="#FFBD00"
+                        android:textSize="20sp"
+                        android:textStyle="bold" />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/rl_totalmoney4"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentRight="true"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="69dp"
+                    android:layout_marginRight="40dp"
+                    android:orientation="horizontal"
+                    android:visibility="invisible">
+
+                    <ImageView
+                        android:id="@+id/iv_totalmoney4"
+                        android:layout_width="32dp"
+                        android:layout_height="32dp"
+                        android:src="@mipmap/red_rain_placeholder" />
+
+                    <TextView
+                        android:id="@+id/tv_totalmoney4"
+                        android:layout_width="@dimen/red_rain_totalmoney_text_width"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_vertical"
+                        android:layout_marginLeft="7dp"
+                        android:ellipsize="end"
+                        android:singleLine="true"
+                        android:text="+0.000000"
+                        android:textColor="#FFBD00"
+                        android:textSize="20sp"
+                        android:textStyle="bold" />
+
+                </LinearLayout>
+
+            </RelativeLayout>
+
+            <View
+                android:id="@+id/line"
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:layout_below="@+id/rl_add_sum" />
+
+            <TextView
+                android:id="@+id/tv_countdown"
+                android:layout_width="162dp"
+                android:layout_height="45dp"
+                android:layout_alignParentBottom="true"
+                android:layout_centerHorizontal="true"
+                android:layout_marginBottom="39dp"
+                android:background="@drawable/red_rain_tv_countdown_bg"
+                android:gravity="center"
+                android:text="00:00:00"
+                android:textColor="@color/white"
+                android:textSize="28sp" />
+
+        </RelativeLayout>
+
+        <Button
+            android:id="@+id/btn_close"
+            android:layout_width="24dp"
+            android:layout_height="24dp"
+            android:layout_alignParentRight="true"
+            android:layout_marginTop="20dp"
+            android:layout_marginRight="15dp"
+            android:background="@mipmap/red_packet_rain_close" />
+
+    </RelativeLayout>
+
+</FrameLayout>

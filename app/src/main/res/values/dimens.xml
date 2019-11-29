@@ -1,0 +1,73 @@
+<resources>
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="de_conversation_item_name_size">16sp</dimen>
+    <dimen name="de_message_send_status_image_size">17dp</dimen>
+    <dimen name="de_conversation_item_data_size">14sp</dimen>
+
+    <!--SWITCH-->
+    <dimen name="ksw_md_thumb_ripple_size">42dp</dimen>
+    <dimen name="ksw_md_thumb_solid_inset">11dp</dimen>
+    <dimen name="ksw_md_thumb_shadow_inset">11dp</dimen>
+    <dimen name="ksw_md_thumb_shadow_inset_top">11dp</dimen>
+    <dimen name="ksw_md_thumb_shadow_inset_bottom">10dp</dimen>
+    <dimen name="dp_10">10dp</dimen>
+
+    <!--用于导航栏标题-->
+    <dimen name="navigation_bar_title_48dp">48dp</dimen>
+
+    <dimen name="item_title_50dp">50dp</dimen>
+    <dimen name="item_title_53dp">53dp</dimen>
+
+    <dimen name="text_number_22sp">22sp</dimen>
+    <dimen name="text_number_20sp">20sp</dimen>
+    <dimen name="text_number_17sp">17sp</dimen>
+    <dimen name="text_number_16sp">16sp</dimen>
+    <!--用于导航栏标题文字-->
+    <dimen name="navigation_bar_title_18sp">18sp</dimen>
+    <!--用于导航栏侧边栏文字-->
+    <dimen name="navigation_bar_title_right_16sp">16sp</dimen>
+    <!--用于列表标签二级菜单-->
+    <dimen name="two_level_menu_15sp">15sp</dimen>
+    <!--用于较为重要的小标题-->
+    <dimen name="content_text_17sp">17sp</dimen>
+    <dimen name="content_text_16sp">16sp</dimen>
+    <dimen name="content_text_15sp">15sp</dimen>
+    <dimen name="content_text_14sp">14sp</dimen>
+    <dimen name="content_text_13sp">13sp</dimen>
+    <dimen name="content_text_12sp">12sp</dimen>
+    <dimen name="content_text_11sp">11sp</dimen>
+    <dimen name="content_text_10sp">10sp</dimen>
+    <!--搜索框块里面的文字-->
+    <dimen name="search_box_text_14sp">14sp</dimen>
+    <!--点击按钮模块里面的文字-->
+    <dimen name="button_16sp">16sp</dimen>
+    <dimen name="button_18sp">18sp</dimen>
+    <dimen name="dp110">110dp</dimen>
+    <dimen name="dp340">340dp</dimen>
+    <dimen name="dp530">530dp</dimen>
+    <dimen name="dp287">287dp</dimen>
+    <dimen name="dp361">361dp</dimen>
+    <dimen name="sp60">60sp</dimen>
+    <dimen name="dp21">21dp</dimen>
+    <dimen name="dp300">300dp</dimen>
+    <dimen name="sp34">34sp</dimen>
+    <dimen name="dp360">360dp</dimen>
+    <dimen name="dp380">380dp</dimen>
+    <dimen name="dp53">53dp</dimen>
+    <dimen name="sp30">30sp</dimen>
+    <dimen name="sp40">40sp</dimen>
+    <dimen name="sp90">90sp</dimen>
+    <dimen name="sp72">72sp</dimen>
+    <dimen name="dp0">0dp</dimen>
+    <dimen name="sp32">32sp</dimen>
+    <dimen name="sp28">28sp</dimen>
+    <dimen name="sp11">11sp</dimen>
+    <dimen name="dp11">11dp</dimen>
+    <!-- table  -->
+    <dimen name="column_width">120dp</dimen>
+    <dimen name="row_height">120dp</dimen>
+    <dimen name="column_header_height">60dp</dimen>
+    <dimen name="row_header_width">80dp</dimen>
+
+    <dimen name="red_rain_totalmoney_text_width">110dp</dimen>
+</resources>

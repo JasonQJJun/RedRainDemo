@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="DragView">
+        <attr name="leftAlign" format="boolean" />
+        <attr name="rightAlign" format="boolean" />
+        <attr name="topAlign" format="boolean" />
+        <attr name="bottomAlign" format="boolean" />
+        <attr name="alignDistance" format="dimension" />
+    </declare-styleable>
+
+</resources>

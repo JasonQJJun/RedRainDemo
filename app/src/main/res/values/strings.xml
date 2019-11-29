@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">MyRedRainDemo</string>
+    <string name="red_rain_permission_title">悬浮窗权限未开启</string>
+    <string name="red_rain_permission_content">红包雨活动需要获得悬浮窗权限，否则关闭后红包雨功能将无法正常使用</string>
+    <string name="red_rain_permission_open">开启</string>
+    <string name="red_rain_permission_cancel">取消</string>
+    <string name="happy_and_prosperous">恭喜发财</string>
+</resources>
