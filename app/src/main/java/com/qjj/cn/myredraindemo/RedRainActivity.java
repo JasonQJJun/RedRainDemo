@@ -216,7 +216,7 @@ public class RedRainActivity extends Activity {
     @Override
     public boolean onKeyDown(int keyCode, KeyEvent event) {
         if (keyCode == KeyEvent.KEYCODE_BACK) {
-            showFloatWindowDelay(redRainPopupView.getDuration());
+            checkPermissionAndShow(redRainPopupView.getDuration());
             return true;
         }
 
