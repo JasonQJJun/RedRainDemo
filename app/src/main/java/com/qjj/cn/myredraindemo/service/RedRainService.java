@@ -285,8 +285,8 @@ public class RedRainService extends Service {
         rainOpenResponse.setCode(1);
         rainOpenResponse.setStatus(1);
         rainOpenResponse.setData(new RedRainActivityResponse.ResultEntity());
-        rainOpenResponse.getData().setBeginTime("1573091438");
-        rainOpenResponse.getData().setServerTime("1573091435");
+        rainOpenResponse.getData().setBeginTime("1573091440");
+        rainOpenResponse.getData().setServerTime("1573091439");
         rainOpenResponse.getData().setCountdown("10");
         rainOpenResponse.getData().setForecast("60");
         rainOpenResponse.getData().setDuration("30");
